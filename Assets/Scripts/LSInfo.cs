@@ -9,7 +9,7 @@ public class LSInfo
     public Rule[] rules;
 
     [Header("Gen Settings")]
-    [Range(1, 6)] public int iterations = 4;
+    [Range(1, 10)] public int iterations = 4;
     [Range(3, 16)] public int sides = 8;
 
     [Header("Branch Stuff")]
