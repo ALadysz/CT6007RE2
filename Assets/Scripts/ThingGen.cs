@@ -87,7 +87,7 @@ public class ThingGen : MonoBehaviour
         }
 
         //actual generation
-        string sequence = LS.GenerateSequence(lsInfo);
+        string sequence = LS.Sequencifier(lsInfo);
         var tortleActions = SetupTortleActions(branchData, leafData);
 
         AddRing(tortle.pos, tortle.rot, tortle.radius, 0, branchData);
